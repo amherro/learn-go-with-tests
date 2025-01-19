@@ -41,3 +41,9 @@ func chooseLanguage(language string) (prefix string) {
 func main() {
 	fmt.Println(Hello("Adam", "Dutch"))
 }
+
+func ExampleHello() {
+	greet := Hello("Adam", "English")
+	fmt.Println(greet)
+	// Output: Hello Adam
+}
