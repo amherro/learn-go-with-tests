@@ -1,3 +1,3 @@
-module golessons.com
+module example.com/go-with-tests
 
-go 1.24.6
+go 1.24.5
